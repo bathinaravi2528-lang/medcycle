@@ -1,0 +1,44 @@
+import { Order } from '../types';
+
+export const orders: Order[] = [
+  {
+    id: 'ORD001',
+    medicineId: 'm1',
+    medicineName: 'Paracetamol 650mg',
+    status: 'delivered',
+    estimatedDelivery: '2026-06-10',
+    address: 'Flat 4B, Sri Ram Apartments, MVP Colony, Visakhapatnam - 530017',
+    amount: 0,
+    date: '2026-06-08',
+  },
+  {
+    id: 'ORD002',
+    medicineId: 'm3',
+    medicineName: 'Cetirizine 10mg',
+    status: 'dispatched',
+    estimatedDelivery: '2026-06-12',
+    address: 'H.No 45, Nehru Nagar, Dwaraka Nagar, Visakhapatnam - 530016',
+    amount: 25,
+    date: '2026-06-11',
+  },
+  {
+    id: 'ORD003',
+    medicineId: 'm7',
+    medicineName: 'Vitamin D3 Capsules',
+    status: 'verified',
+    estimatedDelivery: '2026-06-13',
+    address: '12-3-45, Steel Plant Area, Gajuwaka, Visakhapatnam - 530026',
+    amount: 120,
+    date: '2026-06-11',
+  },
+  {
+    id: 'ORD004',
+    medicineId: 'm11',
+    medicineName: 'Pantoprazole 40mg',
+    status: 'confirmed',
+    estimatedDelivery: '2026-06-14',
+    address: '7th Lane, Madhurawada, Visakhapatnam - 530048',
+    amount: 45,
+    date: '2026-06-11',
+  },
+];
